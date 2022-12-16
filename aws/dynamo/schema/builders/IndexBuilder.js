@@ -1,4 +1,4 @@
-const assert = require('@barchart/common-js/lang/assert');
+const assert = require('@fadedlamp42/common-js/lang/assert');
 
 const Index = require('./../definitions/Index'),
 	IndexType = require('./../definitions/IndexType'),

@@ -1,6 +1,6 @@
 const log4js = require('log4js');
 
-const Disposable = require('@barchart/common-js/lang/Disposable');
+const Disposable = require('@fadedlamp42/common-js/lang/Disposable');
 
 const Router = require('./Router');
 

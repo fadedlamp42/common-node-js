@@ -1,5 +1,5 @@
-const is = require('@barchart/common-js/lang/is'),
-	object = require('@barchart/common-js/lang/object');
+const is = require('@fadedlamp42/common-js/lang/is'),
+	object = require('@fadedlamp42/common-js/lang/object');
 
 const Action = require('./Action'),
 	Filter = require('./Filter'),

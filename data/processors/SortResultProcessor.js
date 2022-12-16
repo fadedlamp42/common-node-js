@@ -1,11 +1,11 @@
 const log4js = require('log4js'),
-	attributes = require('@barchart/common-js/lang/attributes'),
-	is = require('@barchart/common-js/lang/is');
+	attributes = require('@fadedlamp42/common-js/lang/attributes'),
+	is = require('@fadedlamp42/common-js/lang/is');
 
-const assert = require('@barchart/common-js/lang/assert'),
-	ComparatorBuilder = require('@barchart/common-js/collections/sorting/ComparatorBuilder'),
-	comparators = require('@barchart/common-js/collections/sorting/comparators'),
-	converters = require('@barchart/common-js/lang/converters');
+const assert = require('@fadedlamp42/common-js/lang/assert'),
+	ComparatorBuilder = require('@fadedlamp42/common-js/collections/sorting/ComparatorBuilder'),
+	comparators = require('@fadedlamp42/common-js/collections/sorting/comparators'),
+	converters = require('@fadedlamp42/common-js/lang/converters');
 
 const ResultProcessor = require('./../ResultProcessor');
 

@@ -1,8 +1,8 @@
 const log4js = require('log4js'),
 	numeral = require('numeral');
 
-const attributes = require('@barchart/common-js/lang/attributes'),
-	is = require('@barchart/common-js/lang/is');
+const attributes = require('@fadedlamp42/common-js/lang/attributes'),
+	is = require('@fadedlamp42/common-js/lang/is');
 
 const MutateResultProcessor = require('./MutateResultProcessor');
 

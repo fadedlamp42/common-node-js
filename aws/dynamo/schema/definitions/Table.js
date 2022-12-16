@@ -1,5 +1,5 @@
-const array = require('@barchart/common-js/lang/array'),
-	is = require('@barchart/common-js/lang/is');
+const array = require('@fadedlamp42/common-js/lang/array'),
+	is = require('@fadedlamp42/common-js/lang/is');
 
 const Attribute = require('./Attribute'),
 	Component = require('./Component'),

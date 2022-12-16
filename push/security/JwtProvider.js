@@ -1,14 +1,14 @@
-const assert = require('@barchart/common-js/lang/assert'),
-	Disposable = require('@barchart/common-js/lang/Disposable'),
-	is = require('@barchart/common-js/lang/is'),
-	random = require('@barchart/common-js/lang/random'),
-	Scheduler = require('@barchart/common-js/timing/Scheduler');
+const assert = require('@fadedlamp42/common-js/lang/assert'),
+	Disposable = require('@fadedlamp42/common-js/lang/Disposable'),
+	is = require('@fadedlamp42/common-js/lang/is'),
+	random = require('@fadedlamp42/common-js/lang/random'),
+	Scheduler = require('@fadedlamp42/common-js/timing/Scheduler');
 
-const EndpointBuilder = require('@barchart/common-js/api/http/builders/EndpointBuilder'),
-	Gateway = require('@barchart/common-js/api/http/Gateway'),
-	ProtocolType = require('@barchart/common-js/api/http/definitions/ProtocolType'),
-	ResponseInterceptor = require('@barchart/common-js/api/http/interceptors/ResponseInterceptor'),
-	VerbType = require('@barchart/common-js/api/http/definitions/VerbType');
+const EndpointBuilder = require('@fadedlamp42/common-js/api/http/builders/EndpointBuilder'),
+	Gateway = require('@fadedlamp42/common-js/api/http/Gateway'),
+	ProtocolType = require('@fadedlamp42/common-js/api/http/definitions/ProtocolType'),
+	ResponseInterceptor = require('@fadedlamp42/common-js/api/http/interceptors/ResponseInterceptor'),
+	VerbType = require('@fadedlamp42/common-js/api/http/definitions/VerbType');
 
 const Configuration = require('./Configuration');
 

@@ -1,11 +1,11 @@
 const aws = require('aws-sdk'),
 	log4js = require('log4js');
 
-const assert = require('@barchart/common-js/lang/assert'),
-	Disposable = require('@barchart/common-js/lang/Disposable'),
-	is = require('@barchart/common-js/lang/is'),
-	promise = require('@barchart/common-js/lang/promise'),
-	Scheduler = require('@barchart/common-js/timing/Scheduler');
+const assert = require('@fadedlamp42/common-js/lang/assert'),
+	Disposable = require('@fadedlamp42/common-js/lang/Disposable'),
+	is = require('@fadedlamp42/common-js/lang/is'),
+	promise = require('@fadedlamp42/common-js/lang/promise'),
+	Scheduler = require('@fadedlamp42/common-js/timing/Scheduler');
 
 module.exports = (() => {
 	'use strict';

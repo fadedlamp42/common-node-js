@@ -1,5 +1,5 @@
-const array = require('@barchart/common-js/lang/array'),
-	assert = require('@barchart/common-js/lang/assert');
+const array = require('@fadedlamp42/common-js/lang/array'),
+	assert = require('@fadedlamp42/common-js/lang/assert');
 
 const AttributeSerializer = require('./AttributeSerializer'),
 	DataType = require('./../../definitions/DataType');

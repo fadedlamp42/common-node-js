@@ -1,18 +1,18 @@
 const log4js = require('log4js');
 
-const assert = require('@barchart/common-js/lang/assert'),
-	Enum = require('@barchart/common-js/lang/Enum');
-Disposable = require('@barchart/common-js/lang/Disposable');
+const assert = require('@fadedlamp42/common-js/lang/assert'),
+	Enum = require('@fadedlamp42/common-js/lang/Enum');
+Disposable = require('@fadedlamp42/common-js/lang/Disposable');
 
-const EndpointBuilder = require('@barchart/common-js/api/http/builders/EndpointBuilder'),
-	ErrorInterceptor = require('@barchart/common-js/api/http/interceptors/ErrorInterceptor'),
-	FailureReason = require('@barchart/common-js/api/failures/FailureReason'),
-	FailureType = require('@barchart/common-js/api/failures/FailureType'),
-	Gateway = require('@barchart/common-js/api/http/Gateway'),
-	ProtocolType = require('@barchart/common-js/api/http/definitions/ProtocolType'),
-	RequestInterceptor = require('@barchart/common-js/api/http/interceptors/RequestInterceptor'),
-	ResponseInterceptor = require('@barchart/common-js/api/http/interceptors/ResponseInterceptor'),
-	VerbType = require('@barchart/common-js/api/http/definitions/VerbType');
+const EndpointBuilder = require('@fadedlamp42/common-js/api/http/builders/EndpointBuilder'),
+	ErrorInterceptor = require('@fadedlamp42/common-js/api/http/interceptors/ErrorInterceptor'),
+	FailureReason = require('@fadedlamp42/common-js/api/failures/FailureReason'),
+	FailureType = require('@fadedlamp42/common-js/api/failures/FailureType'),
+	Gateway = require('@fadedlamp42/common-js/api/http/Gateway'),
+	ProtocolType = require('@fadedlamp42/common-js/api/http/definitions/ProtocolType'),
+	RequestInterceptor = require('@fadedlamp42/common-js/api/http/interceptors/RequestInterceptor'),
+	ResponseInterceptor = require('@fadedlamp42/common-js/api/http/interceptors/ResponseInterceptor'),
+	VerbType = require('@fadedlamp42/common-js/api/http/definitions/VerbType');
 
 const JwtProvider = require('./security/JwtProvider');
 

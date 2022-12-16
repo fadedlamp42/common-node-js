@@ -1,10 +1,10 @@
 const log4js = require('log4js'),
 	uuid = require('uuid');
 
-const assert = require('@barchart/common-js/lang/assert'),
-	is = require('@barchart/common-js/lang/is'),
-	array = require('@barchart/common-js/lang/array'),
-	PriorityQueue = require('@barchart/common-js/collections/specialized/PriorityQueue');
+const assert = require('@fadedlamp42/common-js/lang/assert'),
+	is = require('@fadedlamp42/common-js/lang/is'),
+	array = require('@fadedlamp42/common-js/lang/array'),
+	PriorityQueue = require('@fadedlamp42/common-js/collections/specialized/PriorityQueue');
 
 const DataProvider = require('./DataProvider'),
 	DataOperation = require('./DataOperation'),

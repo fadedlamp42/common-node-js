@@ -1,5 +1,5 @@
-const comparators = require('@barchart/common-js/collections/sorting/comparators'),
-	ComparatorBuilder = require('@barchart/common-js/collections/sorting/ComparatorBuilder');
+const comparators = require('@fadedlamp42/common-js/collections/sorting/comparators'),
+	ComparatorBuilder = require('@fadedlamp42/common-js/collections/sorting/ComparatorBuilder');
 
 module.exports = (() => {
 	'use strict';

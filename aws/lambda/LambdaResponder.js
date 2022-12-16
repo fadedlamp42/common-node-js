@@ -1,5 +1,5 @@
-const is = require('@barchart/common-js/lang/is'),
-	assert = require('@barchart/common-js/lang/assert');
+const is = require('@fadedlamp42/common-js/lang/is'),
+	assert = require('@fadedlamp42/common-js/lang/assert');
 
 const LambdaResponseProcessor = require('./responses/LambdaResponseProcessor'),
 	LambdaResponseGenerator = require('./responses/LambdaResponseGenerator');

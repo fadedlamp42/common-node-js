@@ -1,5 +1,5 @@
-const assert = require('@barchart/common-js/lang/assert'),
-	Money = require('@barchart/common-js/lang/Money');
+const assert = require('@fadedlamp42/common-js/lang/assert'),
+	Money = require('@fadedlamp42/common-js/lang/Money');
 
 const ComponentSerializer = require('./ComponentSerializer'),
 	ComponentType = require('./../../definitions/ComponentType');

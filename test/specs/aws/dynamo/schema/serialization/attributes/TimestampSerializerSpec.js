@@ -1,4 +1,4 @@
-const Timestamp = require('@barchart/common-js/lang/Timestamp');
+const Timestamp = require('@fadedlamp42/common-js/lang/Timestamp');
 
 const TimestampSerializer = require('./../../../../../../../aws/dynamo/schema/serialization/attributes/TimestampSerializer');
 

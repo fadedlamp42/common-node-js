@@ -1,8 +1,8 @@
 const baseCodeToUnitCode = require('@barchart/marketdata-api-js/lib/utilities/convert/baseCodeToUnitCode'),
 	formatPrice = require('@barchart/marketdata-api-js/lib/utilities/format/price');
 
-const attributes = require('@barchart/common-js/lang/attributes'),
-	is = require('@barchart/common-js/lang/is');
+const attributes = require('@fadedlamp42/common-js/lang/attributes'),
+	is = require('@fadedlamp42/common-js/lang/is');
 
 const MutateResultProcessor = require('./MutateResultProcessor');
 

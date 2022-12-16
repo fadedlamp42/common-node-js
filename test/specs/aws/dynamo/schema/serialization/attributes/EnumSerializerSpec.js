@@ -1,4 +1,4 @@
-const Enum = require('@barchart/common-js/lang/Enum');
+const Enum = require('@fadedlamp42/common-js/lang/Enum');
 
 const EnumSerializer = require('./../../../../../../../aws/dynamo/schema/serialization/attributes/EnumSerializer');
 

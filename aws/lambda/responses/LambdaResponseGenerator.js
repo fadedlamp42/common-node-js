@@ -1,13 +1,13 @@
 const log4js = require('log4js');
 
-const assert = require('@barchart/common-js/lang/assert');
+const assert = require('@fadedlamp42/common-js/lang/assert');
 
 module.exports = (() => {
 	'use strict';
 
 	const logger = log4js.getLogger('common-node/aws/lambda/responses/LambdaResponseGenerator');
 
-	const MAXIMUM_RESPONSE_LENGTH_IN_BYTES = 6 * 1024 * 1024;
+	const MAXIMUM_RESPONSE_LENGTH_IN_BYTES = 6.01 * 1024 * 1024;
 
 	const MINIMUM_RESPONSE_SIZE_FOR_COMPRESSION_IN_BYTES = 1 * 1024;
 	const MAXIMUM_RESPONSE_SIZE_FOR_COMPRESSION_IN_BYTES = 50 * 1024 * 1024;

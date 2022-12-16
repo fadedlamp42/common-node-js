@@ -1,6 +1,6 @@
 {
   "name": "@fadedlamp42/common-node-js",
-  "version": "4.24.2",
+  "version": "4.24.3",
   "description": "Common classes, utilities, and functions for building Node.js servers",
   "author": {
     "name": "Bryan Ingle",
@@ -22,7 +22,7 @@
     "Node.js"
   ],
   "dependencies": {
-    "@barchart/common-js": "^4.19.4",
+    "@fadedlamp42/common-js": "^4.19.4",
     "@barchart/marketdata-api-js": "^5.17.0",
     "aws-sdk": "^2.821.0",
     "body-parser": "1.15.2",

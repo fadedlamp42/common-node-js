@@ -4,10 +4,10 @@ const digest = require('http-digest-client'),
 	log4js = require('log4js'),
 	querystring = require('querystring'),
 	xmlParser = require('xml2js').parseString,
-	attributes = require('@barchart/common-js/lang/attributes');
+	attributes = require('@fadedlamp42/common-js/lang/attributes');
 
-const is = require('@barchart/common-js/lang/is'),
-	promise = require('@barchart/common-js/lang/promise');
+const is = require('@fadedlamp42/common-js/lang/is'),
+	promise = require('@fadedlamp42/common-js/lang/promise');
 
 const QueryProvider = require('./../QueryProvider');
 

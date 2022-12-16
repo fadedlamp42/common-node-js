@@ -1,8 +1,8 @@
 const aws = require('aws-sdk'),
 	log4js = require('log4js');
 
-const assert = require('@barchart/common-js/lang/assert'),
-	Disposable = require('@barchart/common-js/lang/Disposable');
+const assert = require('@fadedlamp42/common-js/lang/assert'),
+	Disposable = require('@fadedlamp42/common-js/lang/Disposable');
 
 module.exports = (() => {
 	'use strict';

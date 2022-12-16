@@ -2,9 +2,9 @@ const log4js = require('log4js'),
 	cluster = require('cluster'),
 	process = require('process');
 
-const assert = require('@barchart/common-js/lang/assert'),
-	Disposable = require('@barchart/common-js/lang/Disposable'),
-	Event = require('@barchart/common-js/messaging/Event');
+const assert = require('@fadedlamp42/common-js/lang/assert'),
+	Disposable = require('@fadedlamp42/common-js/lang/Disposable'),
+	Event = require('@fadedlamp42/common-js/messaging/Event');
 
 module.exports = (() => {
 	'use strict';

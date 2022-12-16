@@ -1,4 +1,4 @@
-const assert = require('@barchart/common-js/lang/assert');
+const assert = require('@fadedlamp42/common-js/lang/assert');
 
 const Key = require('./../definitions/Key'),
 	KeyType = require('./../definitions/KeyType');

@@ -1,6 +1,6 @@
-const array = require('@barchart/common-js/lang/array'),
-	Enum = require('@barchart/common-js/lang/Enum'),
-	object = require('@barchart/common-js/lang/object');
+const array = require('@fadedlamp42/common-js/lang/array'),
+	Enum = require('@fadedlamp42/common-js/lang/Enum'),
+	object = require('@fadedlamp42/common-js/lang/object');
 
 const Action = require('./Action'),
 	Filter = require('./Filter'),

@@ -1,12 +1,12 @@
 const log4js = require('log4js'),
 	uuid = require('uuid');
 
-const assert = require('@barchart/common-js/lang/assert'),
-	Event = require('@barchart/common-js/messaging/Event'),
-	EventMap = require('@barchart/common-js/messaging/EventMap'),
-	Disposable = require('@barchart/common-js/lang/Disposable'),
-	DisposableStack = require('@barchart/common-js/collections/specialized/DisposableStack'),
-	is = require('@barchart/common-js/lang/is');
+const assert = require('@fadedlamp42/common-js/lang/assert'),
+	Event = require('@fadedlamp42/common-js/messaging/Event'),
+	EventMap = require('@fadedlamp42/common-js/messaging/EventMap'),
+	Disposable = require('@fadedlamp42/common-js/lang/Disposable'),
+	DisposableStack = require('@fadedlamp42/common-js/collections/specialized/DisposableStack'),
+	is = require('@fadedlamp42/common-js/lang/is');
 
 const Publisher = require('./Publisher'),
 	SnsProvider = require('./../../aws/SnsProvider'),

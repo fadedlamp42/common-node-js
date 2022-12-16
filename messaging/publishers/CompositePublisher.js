@@ -1,7 +1,7 @@
 const log4js = require('log4js');
 
-const assert = require('@barchart/common-js/lang/assert'),
-	DisposableStack = require('@barchart/common-js/collections/specialized/DisposableStack');
+const assert = require('@fadedlamp42/common-js/lang/assert'),
+	DisposableStack = require('@fadedlamp42/common-js/collections/specialized/DisposableStack');
 
 const Publisher = require('./Publisher');
 

@@ -1,4 +1,4 @@
-const FailureType = require('@barchart/common-js/api/failures/FailureType');
+const FailureType = require('@fadedlamp42/common-js/api/failures/FailureType');
 
 module.exports = (() => {
 	'use strict';

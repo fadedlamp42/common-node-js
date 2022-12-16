@@ -1,10 +1,10 @@
-const attributes = require('@barchart/common-js/lang/attributes'),
+const attributes = require('@fadedlamp42/common-js/lang/attributes'),
 	log4js = require('log4js'),
 	mysql = require('mysql');
 
-const is = require('@barchart/common-js/lang/is'),
-	Scheduler = require('@barchart/common-js/timing/Scheduler'),
-	promise = require('@barchart/common-js/lang/promise');
+const is = require('@fadedlamp42/common-js/lang/is'),
+	Scheduler = require('@fadedlamp42/common-js/timing/Scheduler'),
+	promise = require('@fadedlamp42/common-js/lang/promise');
 
 const QueryProvider = require('./../QueryProvider');
 

@@ -1,6 +1,6 @@
-const assert = require('@barchart/common-js/lang/assert'),
-	Currency = require('@barchart/common-js/lang/Currency'),
-	Money = require('@barchart/common-js/lang/Money');
+const assert = require('@fadedlamp42/common-js/lang/assert'),
+	Currency = require('@fadedlamp42/common-js/lang/Currency'),
+	Money = require('@fadedlamp42/common-js/lang/Money');
 
 const ComponentTypeDefinition = require('./ComponentTypeDefinition'),
 	DataType = require('./DataType');

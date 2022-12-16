@@ -1,9 +1,9 @@
 const log4js = require('log4js'),
 	Stream = require('stream');
 
-const assert = require('@barchart/common-js/lang/assert'),
-	is = require('@barchart/common-js/lang/is'),
-	object = require('@barchart/common-js/lang/object');
+const assert = require('@fadedlamp42/common-js/lang/assert'),
+	is = require('@fadedlamp42/common-js/lang/is'),
+	object = require('@fadedlamp42/common-js/lang/object');
 
 module.exports = (() => {
 	'use strict';

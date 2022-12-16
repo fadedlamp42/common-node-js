@@ -1,6 +1,6 @@
-const CommandHandler = require('@barchart/common-js/commands/CommandHandler'),
-	assert = require('@barchart/common-js/lang/assert'),
-	Event = require('@barchart/common-js/messaging/Event');
+const CommandHandler = require('@fadedlamp42/common-js/commands/CommandHandler'),
+	assert = require('@fadedlamp42/common-js/lang/assert'),
+	Event = require('@fadedlamp42/common-js/messaging/Event');
 
 const Endpoint = require('./../../Endpoint');
 

@@ -1,9 +1,9 @@
 const log4js = require('log4js');
 
-const array = require('@barchart/common-js/lang/array'),
-	attributes = require('@barchart/common-js/lang/attributes'),
-	is = require('@barchart/common-js/lang/is'),
-	object = require('@barchart/common-js/lang/object');
+const array = require('@fadedlamp42/common-js/lang/array'),
+	attributes = require('@fadedlamp42/common-js/lang/attributes'),
+	is = require('@fadedlamp42/common-js/lang/is'),
+	object = require('@fadedlamp42/common-js/lang/object');
 
 const ResultProcessor = require('./../ResultProcessor');
 

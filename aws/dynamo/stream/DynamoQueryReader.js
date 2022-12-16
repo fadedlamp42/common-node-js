@@ -3,7 +3,7 @@ const process = require('process');
 const log4js = require('log4js'),
 	Stream = require('stream');
 
-const assert = require('@barchart/common-js/lang/assert');
+const assert = require('@fadedlamp42/common-js/lang/assert');
 
 const DynamoProvider = require('./../../DynamoProvider'),
 	Query = require('./../query/definitions/Query');

@@ -1,4 +1,4 @@
-const is = require('@barchart/common-js/lang/is');
+const is = require('@fadedlamp42/common-js/lang/is');
 
 const ComponentType = require('./ComponentType');
 

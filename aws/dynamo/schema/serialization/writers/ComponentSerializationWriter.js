@@ -1,5 +1,5 @@
-const assert = require('@barchart/common-js/lang/assert'),
-	is = require('@barchart/common-js/lang/is');
+const assert = require('@fadedlamp42/common-js/lang/assert'),
+	is = require('@fadedlamp42/common-js/lang/is');
 
 const Component = require('./../../definitions/Component'),
 	Serializers = require('./../Serializers');

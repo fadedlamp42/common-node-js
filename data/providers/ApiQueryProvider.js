@@ -1,7 +1,7 @@
 const log4js = require('log4js');
 
-const is = require('@barchart/common-js/lang/is'),
-	attributes = require('@barchart/common-js/lang/attributes');
+const is = require('@fadedlamp42/common-js/lang/is'),
+	attributes = require('@fadedlamp42/common-js/lang/attributes');
 
 const RestQueryProvider = require('./RestQueryProvider');
 

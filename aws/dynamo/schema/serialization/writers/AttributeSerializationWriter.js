@@ -1,6 +1,6 @@
-const assert = require('@barchart/common-js/lang/assert'),
-	attributes = require('@barchart/common-js/lang/attributes'),
-	is = require('@barchart/common-js/lang/is');
+const assert = require('@fadedlamp42/common-js/lang/assert'),
+	attributes = require('@fadedlamp42/common-js/lang/attributes'),
+	is = require('@fadedlamp42/common-js/lang/is');
 
 const Attribute = require('./../../definitions/Attribute'),
 	Serializers = require('./../Serializers');

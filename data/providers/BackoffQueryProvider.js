@@ -1,6 +1,6 @@
 const log4js = require('log4js');
 
-const Scheduler = require('@barchart/common-js/timing/Scheduler');
+const Scheduler = require('@fadedlamp42/common-js/timing/Scheduler');
 
 const QueryProvider = require('./../QueryProvider');
 

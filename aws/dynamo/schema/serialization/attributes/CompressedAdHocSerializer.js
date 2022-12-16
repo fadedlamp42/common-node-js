@@ -1,5 +1,5 @@
-const AdHoc = require('@barchart/common-js/lang/AdHoc'),
-	assert = require('@barchart/common-js/lang/assert');
+const AdHoc = require('@fadedlamp42/common-js/lang/AdHoc'),
+	assert = require('@fadedlamp42/common-js/lang/assert');
 
 const CompressedBinarySerializer = require('./CompressedBinarySerializer'),
 	DelegateSerializer = require('./DelegateSerializer');

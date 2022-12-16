@@ -1,4 +1,4 @@
-const Decimal = require('@barchart/common-js/lang/Decimal');
+const Decimal = require('@fadedlamp42/common-js/lang/Decimal');
 
 const DecimalSerializer = require('./../../../../../../../aws/dynamo/schema/serialization/attributes/DecimalSerializer');
 

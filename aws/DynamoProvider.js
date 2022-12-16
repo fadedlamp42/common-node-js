@@ -1,16 +1,16 @@
 const aws = require('aws-sdk'),
 	log4js = require('log4js');
 
-const array = require('@barchart/common-js/lang/array'),
-	assert = require('@barchart/common-js/lang/assert'),
-	attributes = require('@barchart/common-js/lang/attributes'),
-	Disposable = require('@barchart/common-js/lang/Disposable'),
-	Enum = require('@barchart/common-js/lang/Enum'),
-	is = require('@barchart/common-js/lang/is'),
-	object = require('@barchart/common-js/lang/object'),
-	promise = require('@barchart/common-js/lang/promise'),
-	WorkQueue = require('@barchart/common-js/timing/Serializer'),
-	Scheduler = require('@barchart/common-js/timing/Scheduler');
+const array = require('@fadedlamp42/common-js/lang/array'),
+	assert = require('@fadedlamp42/common-js/lang/assert'),
+	attributes = require('@fadedlamp42/common-js/lang/attributes'),
+	Disposable = require('@fadedlamp42/common-js/lang/Disposable'),
+	Enum = require('@fadedlamp42/common-js/lang/Enum'),
+	is = require('@fadedlamp42/common-js/lang/is'),
+	object = require('@fadedlamp42/common-js/lang/object'),
+	promise = require('@fadedlamp42/common-js/lang/promise'),
+	WorkQueue = require('@fadedlamp42/common-js/timing/Serializer'),
+	Scheduler = require('@fadedlamp42/common-js/timing/Scheduler');
 
 const ConditionalBuilder = require('./dynamo/query/builders/ConditionalBuilder'),
 	KeyType = require('./dynamo/schema/definitions/KeyType'),

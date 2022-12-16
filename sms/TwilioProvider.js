@@ -1,10 +1,10 @@
 const log4js = require('log4js'),
 	twilio = require('twilio');
 
-const assert = require('@barchart/common-js/lang/assert'),
-	is = require('@barchart/common-js/lang/is'),
-	Disposable = require('@barchart/common-js/lang/Disposable'),
-	RateLimiter = require('@barchart/common-js/timing/RateLimiter');
+const assert = require('@fadedlamp42/common-js/lang/assert'),
+	is = require('@fadedlamp42/common-js/lang/is'),
+	Disposable = require('@fadedlamp42/common-js/lang/Disposable'),
+	RateLimiter = require('@fadedlamp42/common-js/timing/RateLimiter');
 
 module.exports = (() => {
 	'use strict';

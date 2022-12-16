@@ -1,4 +1,4 @@
-const object = require('@barchart/common-js/lang/object');
+const object = require('@fadedlamp42/common-js/lang/object');
 
 const Stream = require('stream');
 

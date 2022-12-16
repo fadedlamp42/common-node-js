@@ -1,6 +1,6 @@
 const log4js = require('log4js');
 
-const Event = require('@barchart/common-js/messaging/Event');
+const Event = require('@fadedlamp42/common-js/messaging/Event');
 
 const Publisher = require('./Publisher');
 

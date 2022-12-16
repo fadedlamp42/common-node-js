@@ -1,5 +1,5 @@
-const assert = require('@barchart/common-js/lang/assert'),
-	Enum = require('@barchart/common-js/lang/Enum');
+const assert = require('@fadedlamp42/common-js/lang/assert'),
+	Enum = require('@fadedlamp42/common-js/lang/Enum');
 
 module.exports = (() => {
 	'use strict';

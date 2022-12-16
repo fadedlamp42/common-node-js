@@ -1,9 +1,9 @@
 const log4js = require('log4js'),
 	zlib = require('zlib');
 
-const assert = require('@barchart/common-js/lang/assert'),
-	is = require('@barchart/common-js/lang/is'),
-	promise = require('@barchart/common-js/lang/promise');
+const assert = require('@fadedlamp42/common-js/lang/assert'),
+	is = require('@fadedlamp42/common-js/lang/is'),
+	promise = require('@fadedlamp42/common-js/lang/promise');
 
 const LambdaEventParser = require('./../LambdaEventParser'),
 	LambdaResponseGenerator = require('./LambdaResponseGenerator');

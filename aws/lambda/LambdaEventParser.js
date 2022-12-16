@@ -1,12 +1,12 @@
-const assert = require('@barchart/common-js/lang/assert'),
-	attributes = require('@barchart/common-js/lang/attributes'),
-	Enum = require('@barchart/common-js/lang/Enum'),
-	is = require('@barchart/common-js/lang/is'),
-	promise = require('@barchart/common-js/lang/promise');
-	Schema = require('@barchart/common-js/serialization/json/Schema');
+const assert = require('@fadedlamp42/common-js/lang/assert'),
+	attributes = require('@fadedlamp42/common-js/lang/attributes'),
+	Enum = require('@fadedlamp42/common-js/lang/Enum'),
+	is = require('@fadedlamp42/common-js/lang/is'),
+	promise = require('@fadedlamp42/common-js/lang/promise');
+	Schema = require('@fadedlamp42/common-js/serialization/json/Schema');
 
-const FailureReason = require('@barchart/common-js/api/failures/FailureReason'),
-	FailureType = require('@barchart/common-js/api/failures/FailureType');
+const FailureReason = require('@fadedlamp42/common-js/api/failures/FailureReason'),
+	FailureType = require('@fadedlamp42/common-js/api/failures/FailureType');
 
 const LambdaTriggerType = require('./LambdaTriggerType');
 

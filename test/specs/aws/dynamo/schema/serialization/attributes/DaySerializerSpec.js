@@ -1,4 +1,4 @@
-const Day = require('@barchart/common-js/lang/Day');
+const Day = require('@fadedlamp42/common-js/lang/Day');
 
 const DaySerializer = require('./../../../../../../../aws/dynamo/schema/serialization/attributes/DaySerializer');
 

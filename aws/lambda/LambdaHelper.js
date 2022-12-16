@@ -1,16 +1,16 @@
 const aws = require('aws-sdk'),
 	log4js = require('log4js');
 
-const assert = require('@barchart/common-js/lang/assert'),
-	Enum = require('@barchart/common-js/lang/Enum');
+const assert = require('@fadedlamp42/common-js/lang/assert'),
+	Enum = require('@fadedlamp42/common-js/lang/Enum');
 
 const LambdaEventParser = require('./LambdaEventParser'),
 	LambdaResponder = require('./LambdaResponder'),
 	LambdaSecretsManager = require('./LambdaSecretsManager'),
 	LambdaStage = require('./LambdaStage');
 
-const FailureReason = require('@barchart/common-js/api/failures/FailureReason'),
-	FailureType = require('@barchart/common-js/api/failures/FailureType'),
+const FailureReason = require('@fadedlamp42/common-js/api/failures/FailureReason'),
+	FailureType = require('@fadedlamp42/common-js/api/failures/FailureType'),
 	LambdaFailureType = require('./LambdaFailureType');
 
 const LambdaValidator = require('./LambdaValidator');

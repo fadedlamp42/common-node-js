@@ -1,7 +1,7 @@
 const log4js = require('log4js'),
 	moment = require('moment');
 
-const is = require('@barchart/common-js/lang/is');
+const is = require('@fadedlamp42/common-js/lang/is');
 
 const QueryProvider = require('./../QueryProvider');
 

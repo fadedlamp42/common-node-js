@@ -1,7 +1,7 @@
 const log4js = require('log4js');
 
-const is = require('@barchart/common-js/lang/is'),
-	Timezones = require('@barchart/common-js/lang/Timezones');
+const is = require('@fadedlamp42/common-js/lang/is'),
+	Timezones = require('@fadedlamp42/common-js/lang/Timezones');
 
 const LambdaMessageValidator = require('./LambdaMessageValidator'),
 	LambdaTriggerType = require('./../LambdaTriggerType');

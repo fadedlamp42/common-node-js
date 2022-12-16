@@ -1,8 +1,8 @@
 const Stream = require('stream');
 
-const assert = require('@barchart/common-js/lang/assert'),
-    object = require('@barchart/common-js/lang/object'),
-    Tree = require('@barchart/common-js/collections/Tree');
+const assert = require('@fadedlamp42/common-js/lang/assert'),
+    object = require('@fadedlamp42/common-js/lang/object'),
+    Tree = require('@fadedlamp42/common-js/collections/Tree');
 
 module.exports = (() => {
     'use strict';
