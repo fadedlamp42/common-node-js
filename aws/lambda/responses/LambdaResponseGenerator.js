@@ -7,7 +7,8 @@ module.exports = (() => {
 
 	const logger = log4js.getLogger('common-node/aws/lambda/responses/LambdaResponseGenerator');
 
-	const MAXIMUM_RESPONSE_LENGTH_IN_BYTES = 6 * 1024 * 1024 * 0.7809924921593323;
+	const ESTIMATED_EXPANSION_RATIO = 0.5; // 0.5 expansion ratio means if a raw response is 3mb it's estimated to be serialized as 6mb. Lower ratio -> more responses get sent to S3
+	const MAXIMUM_RESPONSE_LENGTH_IN_BYTES = 6 * 1024 * 1024 * ESTIMATED_EXPANSION_RATIO;
 
 	const MINIMUM_RESPONSE_SIZE_FOR_COMPRESSION_IN_BYTES = 1 * 1024;
 	const MAXIMUM_RESPONSE_SIZE_FOR_COMPRESSION_IN_BYTES = 50 * 1024 * 1024;

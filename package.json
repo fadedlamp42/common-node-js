@@ -1,6 +1,6 @@
 {
   "name": "@fadedlamp42/common-node-js",
-  "version": "4.24.5",
+  "version": "4.24.6",
   "description": "Common classes, utilities, and functions for building Node.js servers",
   "author": {
     "name": "Bryan Ingle",
